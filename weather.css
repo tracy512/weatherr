@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1460819165/photo/dubai-desert-at-sunset-united-arab-emirates.webp?b=1&s=170667a&w=0&k=20&c=QxkndyPK9hNn9BtH6La2ZqZaU3I7o6Wstpa7RMB0xdo=');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    background-color: black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+}
+button:hover{
+    background: #7c7c7c6b;
+}
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+
