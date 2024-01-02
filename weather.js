@@ -6,7 +6,7 @@ const dateObj = new Date();
 
 
 function fetchWeatherData(location) {
-    const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=09b4567e97b04b1e9c2154412231611&q=${encodeURIComponent(location)}&days=7&aqi=no&alerts=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=09b4567e97b04b1e9c2154412231611&q=${encodeURIComponent(location)}&days=7&aqi=no&alerts=no`;
     
     
   const fullDateStr = dateObj.toLocaleDateString('en-GB', {
